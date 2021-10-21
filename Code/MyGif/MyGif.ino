@@ -33,7 +33,7 @@ AnimatedGIF gif;
 // For ESP32 TTGO 135 X 240
 //#include "firewatch.h"
 //#include "family.h"
-#include "DragonFire.h"
+//#include "DragonFire.h"
 //#include "fox.h"
 //#include "fire.h"
 //#include "skullBoom.h"
@@ -50,7 +50,7 @@ AnimatedGIF gif;
                                 // Note: no DMA performance gain on smaller images or transparent pixel GIFs
 //#define GIF_IMAGE firewatch   //  No DMA  63 fps, DMA:  71fps
 //#define GIF_IMAGE family
-#define GIF_IMAGE DragonFire    
+//#define GIF_IMAGE DragonFire    
 //#define GIF_IMAGE fox
 //#define GIF_IMAGE fire
 //#define GIF_IMAGE skullBoom
@@ -71,9 +71,19 @@ AnimatedGIF gif;
 
 
 // For ESP32 ST7789V 320 X 240
-//#include "family2.h"     
+//#include "family2.h"
+//#include "planet2.h"
+#include "deer.h"
+//#include "bonfire2.h"     
+//#include "gryffindor2.h"   
+//#include "darksouls2.h"          
 
 //#define GIF_IMAGE family2
+//#define GIF_IMAGE planet2
+#define GIF_IMAGE deer
+//#define GIF_IMAGE bonfire2
+//#define GIF_IMAGE gryffindor2
+//#define GIF_IMAGE darksouls2
 
 
 /////////////////////////////////////////////////////////////////////////
