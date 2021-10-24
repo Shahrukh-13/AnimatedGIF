@@ -73,17 +73,47 @@ AnimatedGIF gif;
 // For ESP32 ST7789V 320 X 240
 //#include "family2.h"
 //#include "planet2.h"
-#include "deer.h"
+//#include "deer.h"
 //#include "bonfire2.h"     
 //#include "gryffindor2.h"   
-//#include "darksouls2.h"          
+//#include "darksouls2.h" 
+//#include "spirit_animals.h"
+//#include "hell_dragon.h"            
 
 //#define GIF_IMAGE family2
 //#define GIF_IMAGE planet2
-#define GIF_IMAGE deer
+//#define GIF_IMAGE deer
 //#define GIF_IMAGE bonfire2
 //#define GIF_IMAGE gryffindor2
 //#define GIF_IMAGE darksouls2
+//#define GIF_IMAGE spirit_animals
+//#define GIF_IMAGE hell_dragon
+
+
+/////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+
+
+// For ESP32 GC9A01 240 X 240 Round
+//#include "landscape.h"
+#include "bird.h"
+//#include "sleeping_fox.h"
+//#include "sleeping_dragon.h"
+//#include "water_bender.h"
+//#include "planet3.h"
+//#include "deer2.h"
+     
+
+//#define GIF_IMAGE landscape
+#define GIF_IMAGE bird
+//#define GIF_IMAGE sleeping_fox
+//#define GIF_IMAGE sleeping_dragon
+//#define GIF_IMAGE water_bender
+//#define GIF_IMAGE planet3
+//#define GIF_IMAGE deer2
+
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -103,7 +133,7 @@ void setup() {
 #ifdef USE_DMA
   tft.initDMA();
 #endif
-  tft.setRotation(1);
+  tft.setRotation(0);
   tft.fillScreen(TFT_BLACK);
 
   gif.begin(BIG_ENDIAN_PIXELS);
